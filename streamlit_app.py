@@ -7,4 +7,4 @@ name = st.text_input("Siapa nama kamu? ")
 
 # output akhir di streamlit
 if name:
-  st.write("Hello, ", name,". Thank you for visiting.")
+  st.write("Hello, ", name + " Thank you for visiting.")
