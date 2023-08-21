@@ -6,7 +6,7 @@ st.session_state.disabled = True
 name = st.text_input("Siapa nama kamu? ")
 
 # Say hello to visitor
-output = print("Hello, ", name +" thank you for visiting.", :smile:)
+output = print("Hello, ", name +" thank you for visiting.")
 
 # output akhir di streamlit
 st.write(output)
